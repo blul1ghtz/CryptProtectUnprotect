@@ -12,7 +12,7 @@ variable to store the decrypted data, CryptProtect's magic is
 done and the data is output to the second DATA_BLOB.pbData variable
 along with its size to .cbData.
 
-Now for decrypting you pass in a DATA_BLOB and the CryptUnprotet
+Now for decrypting, it will take a DATA_BLOB and the CryptUnprotect
 function will crerate a DATA_BLOB variable for decrypted variable
 like before, this time the decrypted value will be outputted to the
 created DATA_BLOB.
